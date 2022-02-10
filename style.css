@@ -96,6 +96,10 @@ span{
 
 
 @media screen and (max-width : 1080px) {
+    #namaste-text{
+        font-size: 35px;
+        top: 46%;
+    }
     
     #about-h1{
         font-size: 25px;
@@ -131,6 +135,9 @@ span{
 
 
 @media screen and (max-width : 600px) {
+    #namaste-text {
+
+    }
     #about-h1{
         font-size: 15px;
         top: 46%;
