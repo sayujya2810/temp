@@ -52,10 +52,16 @@
     width: 100%;
 }
 
-#about-h1{
+.right{
+    padding-left: 70%;
+    margin-right: 0;
+}
+
+.about-h1{
     font-size: 2vw;
     background-color: rgb(255, 230, 0);
     padding: 1rem;
+    margin-top: 2rem;
     border-radius: 3px 0.15em 0.75em 3px;
 }
 span{
@@ -70,7 +76,6 @@ span{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
 }
 
 #names{
@@ -94,6 +99,40 @@ span{
     width: 95%;
 }
 
+.prakrati-info{
+    display: flex;
+    flex-direction: column;
+}
+.list{
+    font-size: 25px;
+    padding-left: 4rem;
+}
+.prakriti-text{
+    display: flex;
+    background-color: rgb(255, 230, 0);
+    width: 80%;
+    margin-top: 5rem;
+    flex-direction: column;
+    border-radius: 0px 12em 12em 0px;
+}
+
+.prakriti-text p, .prakriti-text h1{
+    padding: 2rem;
+}
+
+.prakriti-text h1{
+    font-size: 3rem;
+}
+.prakriti-text p {
+    font-size: 35px;
+}
+
+.no-pad{
+    margin: 0px;
+}
+
+
+
 
 @media screen and (max-width : 1080px) {
     #namaste-text{
@@ -101,7 +140,7 @@ span{
         top: 46%;
     }
     
-    #about-h1{
+    .about-h1{
         font-size: 25px;
         top: 46%;
     }
@@ -125,8 +164,12 @@ span{
 
     .heading{
         display: flex;
-        margin-left: 5rem ;
+        margin-left: 3rem ;
         padding-left: 0px;
+    }
+    .list{
+        font-size: 20px;
+        padding: 0px;
     }
 
 }
@@ -135,10 +178,10 @@ span{
 
 
 @media screen and (max-width : 600px) {
-    #namaste-text {
+    /* #namaste-text {
 
-    }
-    #about-h1{
+    } */
+    .about-h1{
         font-size: 15px;
         top: 46%;
     }
@@ -165,8 +208,14 @@ span{
         
     }
 
+
     #bot-img{
         height: 70px;
+    }
+
+    .list{
+        padding-left: 3rem;
+        font-size: 15px;
     }
 
     
@@ -175,6 +224,12 @@ span{
         display: flex;
         margin-left: 0rem ;
         padding-left: 0px;
+    }
+
+    .prakriti-text p, .prakriti-text h1{
+        font-size: 100%;
+        padding: 2rem;
+        margin: .5rem;
     }
 
 }
