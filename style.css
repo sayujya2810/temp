@@ -79,8 +79,8 @@ span{
 }
 
 #names{
-    margin-top: 3rem;
-    padding: 5rem;
+    margin-top: 2rem;
+    padding: 4rem;
     background-color: rgb(255, 230, 0);
     width: 40%;
     border-radius: 10px;
@@ -90,7 +90,7 @@ span{
     margin: 1rem;
     height: 70px;
     width: 45%;
-    padding: 10px;
+    padding: 7px;
     font-size: 20px;
     border-radius: 10px;
 }
@@ -99,7 +99,8 @@ span{
     width: 95%;
 }
 
-.prakrati-info{
+.prakriti-info{
+    margin-top: 4rem;
     display: flex;
     flex-direction: column;
 }
